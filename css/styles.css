@@ -1,0 +1,64 @@
+/* Demar’s Thought Drop - Vibe: clean & calm */
+
+body {
+  font-family: "Times New Roman", serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f8ff;
+  color: #111;
+}
+
+header {
+  background-color: #001f3f;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.2rem;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  display: inline-block;
+}
+
+main {
+  padding: 2rem;
+}
+
+#post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.post-card {
+  background-color: white;
+  border-left: 6px solid #005fcb;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.post-card h2 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.post-card p {
+  margin-bottom: 0;
+}
+
+footer {
+  background-color: #001f3f;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
